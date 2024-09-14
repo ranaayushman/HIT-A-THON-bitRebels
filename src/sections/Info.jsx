@@ -4,7 +4,7 @@ import MaxWidthContainer from "../components/mmw";
 const Info = () => {
   return (
     <MaxWidthContainer>
-      <div className="bg-white py-4 border-b border-gray-200">
+      <div className="hidden lg:block bg-white py-4 border-b border-gray-200">
         <div className="flex flex-col lg:flex-row items-center justify-between mx-auto">
           {/* Logo */}
           <div className="flex items-center space-x-2 mb-4 lg:mb-0">
@@ -13,7 +13,7 @@ const Info = () => {
               alt="MediBridge Logo"
               className="h-12 lg:h-16 w-auto"
             />
-            <h1 className="text-lg lg:text-2xl font-bold text-blue-600">
+            <h1 className="text-lg lg:text-2xl font-bold text-blue-600 font-serif">
               MediBridge
             </h1>
           </div>
